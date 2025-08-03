@@ -13,7 +13,8 @@ A simple Scratch game where you guess a number. If you're correct, you can press
 ## Files
 
 - `rabbit-game.sb3` — The Scratch project file
-- `screenshot.png` — Preview of the game (optional)
+- `screenshot.png` — Preview of the game
+- `code in c.c` - Code in C
 
 ---
 
