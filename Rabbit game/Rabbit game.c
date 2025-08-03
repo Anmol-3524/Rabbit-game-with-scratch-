@@ -9,8 +9,8 @@ int main() {
     printf("\n I'll pick a random number from 1 to 5 and you have to guess that number\n");
     printf("\n You have to keep trying till the answer is correct\n");
     printf("\n Thinking randome number...\n");
-    srand(time(NULL)); // seed the random fucntion to generate a new number everytime
-    random_number = (rand() % 5) + 1; // rand: get a new value ( 1,2,3,4,5 ) everytime you run it 
+    srand(time(NULL)); // srand (seed) is used to generate a new number everytime from the start, time(NULL) returns the current time in seconds, using it with seed make it choose a new value everysecond
+    random_number = (rand() % 5) + 1; // rand: get pseudo random value ( 1,2,3,4,5 ) everytime you run it 
       printf("\n Guess a number from 1 to 5: \n\n");
     do
     {
